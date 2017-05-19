@@ -1,0 +1,10 @@
+framework module Graph2DFramework {
+  umbrella header "Graph2DFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module Graph2DFramework.Swift {
+    header "Graph2DFramework-Swift.h"
+}
