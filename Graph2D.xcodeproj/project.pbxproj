@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E2705321ECF261F00A00BDE /* Graph2DFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2705311ECF261F00A00BDE /* Graph2DFramework.framework */; };
+		5E0F70CA1ECF382800972F6F /* Graph2DFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0F70C91ECF382800972F6F /* Graph2DFramework.framework */; };
 		5EB837531ECC6BB20082217B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB837521ECC6BB20082217B /* AppDelegate.swift */; };
 		5EB837551ECC6BB20082217B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB837541ECC6BB20082217B /* ViewController.swift */; };
 		5EB837581ECC6BB20082217B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB837561ECC6BB20082217B /* Main.storyboard */; };
@@ -48,7 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5E2705311ECF261F00A00BDE /* Graph2DFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Graph2DFramework.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Graph2D-hduuvsggackjtffwkdxzgvzzrolp/Build/Products/Debug-iphoneos/Graph2DFramework.framework"; sourceTree = "<group>"; };
+		5E0F70C91ECF382800972F6F /* Graph2DFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Graph2DFramework.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Graph2D-cixdhdgsfcuwcdfjzvafwtjmdqhn/Build/Products/Debug-iphonesimulator/Graph2DFramework.framework"; sourceTree = "<group>"; };
 		5EB8374F1ECC6BB20082217B /* Graph2D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Graph2D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB837521ECC6BB20082217B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EB837541ECC6BB20082217B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E2705321ECF261F00A00BDE /* Graph2DFramework.framework in Frameworks */,
+				5E0F70CA1ECF382800972F6F /* Graph2DFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +93,7 @@
 		5E79F52C1ECEFD3600745A51 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5E2705311ECF261F00A00BDE /* Graph2DFramework.framework */,
+				5E0F70C91ECF382800972F6F /* Graph2DFramework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -444,12 +444,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5CFQ86D2X7;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Graph2D",
-					"$(PROJECT_DIR)Framework/build/Debug-iphoneos",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-				);
 				INFOPLIST_FILE = Graph2D/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chalkiadoudis.com.Graph2D;
@@ -463,12 +457,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5CFQ86D2X7;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Graph2D",
-					"$(PROJECT_DIR)Framework/build/Debug-iphoneos",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-				);
 				INFOPLIST_FILE = Graph2D/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chalkiadoudis.com.Graph2D;
